@@ -1,9 +1,39 @@
 .parallax {
-  /* The image used */
   background-image: url("emile-perron-xrVDYZRGdw4-unsplash.jpg");
-  height: 500px;
-  background-attachment: fixed;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(50%);
+  z-index: -1;
+}
+div, p, body{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.name{
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  font-size: 1.3rem;
+  font-family: 'Days One', sans-serif;
+  filter: none;
+}
+.menu{
+  position: fixed;
+  top:2%;
+  right: 1%;
+  font-size: 1.1rem;
+  font-family: 'Days One', sans-serif;
+  filter: none;
+}
+.resume{
+  position:absolute;
+  width: 50%;
+  background-image: url("emile-perron-xrVDYZRGdw4-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
